@@ -4,9 +4,6 @@ export const Container = styled.div`
   background-color: #24282F;
   min-height: 100vh;
   color: #FFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;
 
 export const Map = styled.div`
