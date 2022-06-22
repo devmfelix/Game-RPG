@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
-  }, [])
+  }, [handleKeyDown])
 
   function handleKeyDown(e: KeyboardEvent) {
     switch (e.code) {
